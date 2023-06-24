@@ -3,6 +3,7 @@
 - One parent ship class
 - one alien ship sub-class
 - one uss assembly sub-class
+- generate 6 alien ship with random unique property value
 - parent class have the following properties - that will be shared with the sub classes
     
     - hull - main body of the ship - if there are 0 hull, that means the ship is destroyed
