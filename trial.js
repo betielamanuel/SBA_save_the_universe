@@ -45,7 +45,7 @@ for (let i = 0; i < 6; i++){
     alienShips.push(alienAssembly.createAlienShip());
 };
 
-
+// alienShipsIndex = Math.floor(Math.random() * 5);
 // console.log(USS_AssemblyShip.attack(alienShips[0]));
 
 //console.log(alienShips[0].isDestroyed());
@@ -69,5 +69,4 @@ function startGame(alien, captain) {
     }
 }
 
-alienShipsIndex = Math.floor(Math.random() * 5);
-startGame(alienShips[alienShipsIndex], USS_AssemblyShip);
+startGame(alienShips[0], USS_AssemblyShip);
